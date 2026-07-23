@@ -1,1 +1,74 @@
+body{
+margin:0;
+font-family:Arial,sans-serif;
+background:#f4fff4;
+}
 
+header{
+background:#2e7d32;
+color:white;
+padding:15px;
+text-align:center;
+}
+
+nav{
+background:#1b5e20;
+padding:10px;
+text-align:center;
+}
+
+nav a{
+color:white;
+text-decoration:none;
+margin:15px;
+font-weight:bold;
+}
+
+.hero{
+background:#e8f5e9;
+padding:60px 20px;
+text-align:center;
+}
+
+.hero h1{
+color:#2e7d32;
+font-size:40px;
+}
+
+.btn{
+background:#2e7d32;
+color:white;
+padding:12px 20px;
+border-radius:5px;
+text-decoration:none;
+}
+
+.products{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
+gap:20px;
+padding:30px;
+}
+
+.card{
+background:white;
+padding:15px;
+border-radius:10px;
+box-shadow:0 0 10px rgba(0,0,0,.1);
+text-align:center;
+}
+
+.card img{
+width:100%;
+height:180px;
+object-fit:cover;
+border-radius:8px;
+}
+
+footer{
+background:#2e7d32;
+color:white;
+padding:20px;
+text-align:center;
+margin-top:30px;
+}
